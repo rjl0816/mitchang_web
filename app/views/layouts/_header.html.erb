@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">MITCHANG</a>
+    <img src=<%= image_path('logo.jpg')%> class="img-fluid", style="height: 120px; padding-right: 30px;">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -18,7 +18,7 @@
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="#">Bags</a></li>
             <li><a class="dropdown-item" href="#">Wallets</a></li>
-            <li><a class="dropdown-item" href="#">Accesories</a></li>
+            <li><a class="dropdown-item" href="#">Accessories</a></li>
             <li><a class="dropdown-item" href="#">Brand Jewelries</a></li>
             <li><a class="dropdown-item" href="#">No Brand Jewelries</a></li>
             <li><a class="dropdown-item" href="#">Watches</a></li>
@@ -37,12 +37,12 @@
           <a class="nav-link" href="#">Events</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Favorites</a>
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><i class="bi bi-suit-heart-fill"> Favorites</i></a>
         </li>
       </ul>
       <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
+        <button class="gold border-gold" type="submit"><i class="bi bi-search"></i></button>
       </form>
     </div>
   </div>
