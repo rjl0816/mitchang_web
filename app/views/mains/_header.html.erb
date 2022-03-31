@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <img src=<%= image_path('logo.jpg')%> class="img-fluid", style="height: 120px; padding-right: 30px;">
+    <%= link_to(image_tag('logo.jpg', class: 'image-fluid logo'), root_path) %>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -16,25 +16,25 @@
             Items
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Bags</a></li>
-            <li><a class="dropdown-item" href="#">Wallets</a></li>
-            <li><a class="dropdown-item" href="#">Accessories</a></li>
-            <li><a class="dropdown-item" href="#">Brand Jewelries</a></li>
-            <li><a class="dropdown-item" href="#">No Brand Jewelries</a></li>
-            <li><a class="dropdown-item" href="#">Watches</a></li>
+            <li><%= link_to "Bags", bag_path, class: "dropdown-item" %></li>
+            <li><%= link_to "Wallets", wallet_path, class: "dropdown-item" %></li>
+            <li><%= link_to "Accessories", accessory_path, class: "dropdown-item" %></li>
+            <li><%= link_to "Brand Jewelries", brand_j_path, class: "dropdown-item" %></li>
+            <li><%= link_to "No Brand Jewelries",no_brand_j_path, class: "dropdown-item" %></li>
+            <li><%= link_to "Watches", watch_path, class: "dropdown-item" %></li>
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">How to Buy</a>
+          <%= link_to "How to Buy", buy_path, class: "nav-link" %>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About Us</a>
+          <%= link_to "About Us", about_path, class: "nav-link" %>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact Us</a>
+        <%= link_to "Contact Us", contact_path, class: "nav-link" %>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Events</a>
+          <%= link_to "Events", event_path, class: "nav-link" %>
         </li>
         <li class="nav-item">
           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><i class="bi bi-suit-heart-fill"> Favorites</i></a>
