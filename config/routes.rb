@@ -5,8 +5,8 @@ Rails.application.routes.draw do
   get 'bag', to: 'categories#bag'
   get 'wallet', to: 'categories#wallet'
   get 'accessory', to: 'categories#accessory'
-  get 'brand-j', to: 'categories#brand-j'
-  get 'no_brand-j', to: 'categories#no_brand-j'
+  get 'brand_j', to: 'categories#brand_j'
+  get 'no_brand_j', to: 'categories#no_brand_j'
   get 'watch', to: 'categories#watch'
 
   get 'about', to: 'pages#about'
