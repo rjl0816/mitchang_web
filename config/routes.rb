@@ -14,4 +14,6 @@ Rails.application.routes.draw do
   get 'contact', to: 'pages#contact'
   get 'event', to: 'pages#event'
 
+  resources :items
+  
 end
