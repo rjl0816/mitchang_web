@@ -1,0 +1,28 @@
+<div class="pt-5 m-5">
+  <div class="background-white">
+    <div class="p-5", style="height: 100%;, width: 100%;">
+        <div class="bg">
+            <img src=<%= image_path('event_bg.jpg') %> class="d-block event_bg">
+            <div class="event_description">
+              <div id="event-title">
+                Events
+              </div>
+              <div id="event-explanation">
+                <ul class="list-group list-group-flush">
+                    <% @events.each do |event| %>
+                        <li class="list-group-item">
+                            <div class="event-date"><%= event.event_date %></div>
+                            <div class="event-content">
+                                <%= event.event_description %>
+                            </div>
+                        </li>
+                    <% end %>
+                </ul>
+              </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+<%= render 'mains/sidebar'%>

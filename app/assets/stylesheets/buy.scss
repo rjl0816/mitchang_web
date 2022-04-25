@@ -1,0 +1,39 @@
+.bg{
+    position: relative;
+}
+
+.buy_bg {
+    width: 100%;
+    height: auto;
+}
+
+.description {
+    width: 50%;
+    height: 40%;
+    position: absolute;
+    top: 3%;
+    right: 1%;
+    color: black;
+    font-family: 'Big Caslon';
+}
+
+.description2 {
+    width: 80%;
+    height: 30%;
+    position: absolute;
+    top: 3%;
+    left: 10%;
+    color: black;
+    font-family: 'Big Caslon';
+}
+
+#htb-title {
+    font-size: xx-large;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#htb-explanation {
+    font-size: large;
+    text-align: left;
+}

@@ -1,27 +1,38 @@
+.left-side {
+    height: auto;
+    width: 50%;
+}
+
+.bio-photo {
+    width: 90%;
+    height: auto;
+}
+
 .right-side {
+    height: 90%;
+    width: 50%;
     text-align: left;
 }
 
 #box {
-    height: 40%;
-    width: 650px;
+    height: 200px;
+    width: 95%;
     border: 15px solid #CFB53B;
-    margin-top: 60px;
     position: relative;
+    border-radius: 10px;
 }
 
 #box-text {
   position: absolute;
-  top: 30px;
-  right: 40px;
+  top: 20%;
+  right: 10%;
   color: black;
-  padding-left: 20px;
-  padding-right: 20px;
   text-align: right;
+  font-family: 'Big Caslon';
 }
 
 #box-text1 {
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 #box-text2 {
@@ -29,18 +40,13 @@
     font-weight: bold;
 }
 
-
-#about-text1 {
-    color: gray;
-    height: 20%;
-    width: 500px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+.text-block {
+    padding-top: 3%;
 }
 
-#about-text2 {
-    height: 20%;
-    width: 500px;
+#about-text {
+    height: 15%;
+    width: 90%;
 }
 
 // .text-block {
@@ -52,3 +58,8 @@
 //     padding-left: 20px;
 //     padding-right: 20px;
 //   }
+
+.text-link {
+    color: #CFB53B;
+}
+

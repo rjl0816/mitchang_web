@@ -12,8 +12,9 @@ Rails.application.routes.draw do
   get 'buy', to: 'pages#buy'
   get 'about', to: 'pages#about'
   get 'contact', to: 'pages#contact'
-  get 'event', to: 'pages#event'
 
   resources :items
+  resources :events
+  resources :users
   
 end

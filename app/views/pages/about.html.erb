@@ -1,23 +1,26 @@
-<div class="pt-5">
+<div class="pt-5 m-5">
   <div class="background-white">
-    <div class="d-flex justify-content-between p-5">
-        <div>
-            <img src=<%= image_path('sample_bio.jpg') %> class="d-block", style="height: 550px;">
+    <div class="d-flex p-5", style="height: 100%;, width: 100%;">
+        <div class="left-side">
+            <img src=<%= image_path('bio.jpg') %> class="d-block bio-photo">
         </div>
-        <div>
-            <div class="right-side w-75", style="height: 550px;">
-                <div id="box" style="height: 200px;">
-                    <div id="box-text">
-                        <div id="box-text1">Our Story</div>
-                        <div id="box-text2">About Mitchang</div>
-                    </div>
+        <div class="right-side">
+            <div id="box">
+                <div id="box-text">
+                    <div id="box-text1">About Mitchang</div>
+                    <div id="box-text2">The Budol Queen</div>
                 </div>
-                <div class="text-block">
-                    <p id="about-text1">Dictum sit amet justo donec enim diam vulputate. Sociis natoque penatibus et magnis dis parturient.</p>
-                    <p id="about-text2">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</p>
-                </div>
+            </div>
+            <div class="text-block">
+                <p id="about-text">Hi, welcome to Mitchang! <br> I'm <a href=https://www.facebook.com/outofthebalikbayanbox target="_blank", class="text-link">Mitch</a> - a freelance entrepreneur, e-commerce marketer, businesswoman, personal shopper and a live seller who aims to give people their dream jewelry or bag.
+                <br><br> What can I say? Sales is my PASSION. <br> I started doing this kind of business way back 2010 and I just knew that this is what I love to do! I love hunting jewelry and bags for my clients and making sure that they will be satisfied and happy with each treasure.
+                <br><br> Aside from being an e-commerce marketer, I also showcase our stocks in a fun and relaxing way thru live selling session (please watch me!) . Keeping them entertained while patiently waiting for me to show (or in social med term, “flex”) their requested item is just pure happiness. It is not just about the money I also want to make sure that they will be able to relax while spending time watching my session for hours.
+                <br><br> Mitchang Kabushiki Kaisha is here to assist and to hunt down your dream bags, jewelry, watches. I am licensed and registered company based here in Japan and we will always try our best to have smooth transactions with you all.
+                <br><br> You can always buy for personal use or for reselling purposes! ♡ <br> Thank you and see you all soonest!
             </div>
         </div>
     </div>
   </div>
 </div>
+
+<%= render 'mains/sidebar'%>
